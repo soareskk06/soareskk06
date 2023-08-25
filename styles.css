@@ -1,0 +1,73 @@
+body {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+}
+
+
+.img-celular{
+
+    width: 420px;
+} 
+.container {
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+}
+
+
+input {
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-top: 3px;
+   
+}
+
+button {
+    background-color: #1495d1;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+
+    }
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.imagens {
+    position: relative;
+}
+
+.img-insta {
+    height: 510px;
+    position: absolute;
+    left: 137px;
+    top: 16px;
+    transition: ease-in-out 2s;
+   
+}
